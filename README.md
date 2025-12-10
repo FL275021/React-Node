@@ -1,2 +1,2 @@
-# React---Javascrpit-ES6
-React - Javascrpit ES6
+# React-Javascrpit
+React - Javascrpit ES6 - Node - API REST

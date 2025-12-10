@@ -1,0 +1,241 @@
+#seccionRegistro {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionRegistro h2 {
+  text-align: center;
+}
+
+#seccionRegistro form {
+  margin-top: 20px;
+}
+
+#seccionRegistro label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#seccionRegistro input[type="text"],
+#seccionRegistro input[type="password"],
+#seccionRegistro select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#seccionRegistro button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionRegistro button[type="submit"]:hover {
+  background-color: #CC0000;
+}
+
+#seccionLogin {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionLogin button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #05ad4b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionLogin button[type="submit"]:hover {
+  background-color: #0b5d2d;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#agregarPersona,
+#listadoPersonas,
+#censadosTotales {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#agregarPersona h2,
+#listadoPersonas h2,
+#censadosTotales h2 {
+  text-align: center;
+}
+
+#agregarPersona form div,
+#listadoPersonas #filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#agregarPersona label,
+#listadoPersonas label,
+#censadosTotales p {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#agregarPersona input[type="text"],
+#agregarPersona input[type="date"],
+#agregarPersona select,
+#listadoPersonas select,
+#listadoPersonas ul,
+#censadosTotales span {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#agregarPersona button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#agregarPersona button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#listadoPersonas {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#listadoPersonas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#filtroOcupacion label {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+
+
+
+#censadosTotales table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#censadosTotales th,
+#censadosTotales td {
+  padding: 8px;
+  text-align: left;
+}
+
+#censadosTotales th {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#censadosTotales tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#censadosTotales tr:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+}
